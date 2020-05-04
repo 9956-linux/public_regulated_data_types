@@ -4,6 +4,9 @@ Path.1.0 path
 
 ---
 
+# Note: this design is not as type-safe as it could be. Normally there should have been a union separating the error
+# case and the success case, but it has been decided to keep the definition compatible with the original v0 design.
+
 Error.1.0 error
 # Result of the operation.
 
